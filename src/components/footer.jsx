@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="flex-1 min-w-[200px]">
             <h3 className="text-white font-semibold mb-3">My Account</h3>
             <ul>
-              <li><a href="#">My Vudu</a></li>
+              <li><a href="#">My store</a></li>
               <li><a href="#">Account</a></li>
               <li><a href="#">Settings</a></li>
               <li><a href="#">Manage Devices</a></li>

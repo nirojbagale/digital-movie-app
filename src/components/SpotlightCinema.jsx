@@ -18,7 +18,7 @@ const SpotlightCinema = () => {
         {spotlightActors.map((actor) => (
           <div key={actor.id}>
             {/* spotlight-actor Image */}
-            <img src={actor.url} className="w-full h-48 object-cover" />
+            <img src={actor.url} className="w-full h-48 object-contain" />
           </div>
         ))}
       </div>
