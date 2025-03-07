@@ -1,0 +1,204 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+      "description": "A mind-bending thriller about dream invasion.",
+      "price": { "rent": "$3.99", "buy": "$9.99" }
+    },
+    {
+      "id": 2,
+      "title": "The Dark Knight",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "description": "Batman faces the Joker in Gotham City.",
+      "price": { "rent": "$4.99", "buy": "$12.99" }
+    },
+    {
+      "id": 3,
+      "title": "Interstellar",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "description": "A journey beyond the stars.",
+      "price": { "rent": "$4.99", "buy": "$14.99" }
+    },
+    {
+      "id": 4,
+      "title": "Avengers: Endgame",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+      "description": "The Avengers assemble one last time.",
+      "price": { "rent": "$3.99", "buy": "$10.99" }
+    },
+    {
+      "id": 5,
+      "title": "Interstellar",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "description": "A journey beyond the stars.",
+      "price": { "rent": "$4.99", "buy": "$14.99" }
+    },
+        {
+          "id": 6,
+          "title": "Inception",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+          "description": "A mind-bending thriller about dream invasion.",
+          "price": { "rent": "$3.99", "buy": "$9.99" }
+        },
+        {
+          "id": 7,
+          "title": "The Dark Knight",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+          "description": "Batman faces the Joker in Gotham City.",
+          "price": { "rent": "$4.99", "buy": "$12.99" }
+        },
+        {
+          "id": 8,
+          "title": "Interstellar",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+          "description": "A journey beyond the stars.",
+          "price": { "rent": "$4.99", "buy": "$14.99" }
+        },
+        {
+          "id": 9,
+          "title": "Avengers: Endgame",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+          "description": "The Avengers assemble one last time.",
+          "price": { "rent": "$3.99", "buy": "$10.99" }
+        },
+        {
+          "id": 10,
+          "title": "Avatar",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
+          "description": "A marine on an alien planet gets caught in a conflict.",
+          "price": { "rent": "$3.99", "buy": "$10.99" }
+        },
+        {
+          "id": 11,
+          "title": "Titanic",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+          "description": "A love story set against the ill-fated Titanic voyage.",
+          "price": { "rent": "$2.99", "buy": "$8.99" }
+        },
+        {
+          "id": 12,
+          "title": "Joker",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+          "description": "A dark origin story of the infamous Joker.",
+          "price": { "rent": "$3.99", "buy": "$11.99" }
+        },
+        {
+          "id": 13,
+          "title": "The Matrix",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+          "description": "A hacker discovers the truth about his reality.",
+          "price": { "rent": "$2.99", "buy": "$7.99" }
+        },
+        {
+          "id": 14,
+          "title": "Parasite",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+          "description": "A poor family schemes their way into a wealthy household.",
+          "price": { "rent": "$3.49", "buy": "$10.49" }
+        },
+        {
+          "id": 15,
+          "title": "Dune",
+          "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+          "description": "A young nobleman navigates a dangerous desert planet.",
+          "price": { "rent": "$5.99", "buy": "$15.99" }
+        }
+      ],
+    "tvShows": [
+      {
+        "id": 1,
+        "title": "Breaking Bad",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ineLOBPG8AZsluYwnkMpHRyu7L.jpg",
+        "description": "A chemistry teacher turned meth producer.",
+        "price": { "rent": "$2.99", "buy": "$7.99" }
+      },
+      {
+        "id": 2,
+        "title": "Stranger Things",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+        "description": "A group of kids uncover supernatural mysteries in their town.",
+        "price": { "rent": "$3.49", "buy": "$9.99" }
+      },
+      {
+        "id": 3,
+        "title": "Game of Thrones",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+        "description": "Noble families vie for control of the Iron Throne.",
+        "price": { "rent": "$4.99", "buy": "$19.99" }
+      },
+      {
+        "id": 4,
+        "title": "The Witcher",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/y0pR5aBVvPn5uncaZjl94ZEnuEF.jpg",
+        "description": "A monster hunter navigates a world of magic and politics.",
+        "price": { "rent": "$3.99", "buy": "$10.99" }
+      },
+      {
+        "id": 5,
+        "title": "Sherlock",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/93g8bHN2zizO4JbwRVNI4xj82Sv.jpg",
+        "description": "A modern take on the classic detective stories.",
+        "price": { "rent": "$2.49", "buy": "$8.99" }
+      },
+      {
+        "id": 6,
+        "title": "The Mandalorian",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/eU1i6eHXlzMOlEq0ku1Rzq7Y4wA.jpg",
+        "description": "A lone bounty hunter explores the Star Wars galaxy.",
+        "price": { "rent": "$3.99", "buy": "$12.99" }
+      },
+      {
+        "id": 7,
+        "title": "Money Heist",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+        "description": "A criminal mastermind leads a heist on the Royal Mint of Spain.",
+        "price": { "rent": "$3.49", "buy": "$9.99" }
+      },
+      {
+        "id": 8,
+        "title": "House of the Dragon",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qmpffFddVOqIyG98DBGNNQ61QQ6.jpg",
+        "description": "A prequel to Game of Thrones exploring the Targaryen dynasty.",
+        "price": { "rent": "$4.99", "buy": "$18.99" }
+      },
+      {
+        "id": 9,
+        "title": "Friends",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+        "description": "A group of friends navigate life in New York City.",
+        "price": { "rent": "$2.99", "buy": "$7.99" }
+      },
+      {
+        "id": 10,
+        "title": "The Office",
+        "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dg9e5fPRRId8PoBE0F6jl5y85Eu.jpg",
+        "description": "A mockumentary on the everyday lives of office employees.",
+        "price": { "rent": "$2.99", "buy": "$7.99" }
+      }
+    ],
+  "hero":[
+    { "id": 1, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hz2k64LF7kr2bELAxwJNR5W94Q2.jpg" },
+    { "id": 2, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cgXk2tNYhJZLXdBDO5DidAVzQ82.jpg" },
+    { "id": 3, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qNLMPY3KLrYgTX2QZ5iEwwOqyRz.jpg" },
+    { "id": 4, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg" }
+
+  ],
+  "spotlight-actor":[
+    { "id": 1, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hz2k64LF7kr2bELAxwJNR5W94Q2.jpg" },
+    { "id": 2, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cgXk2tNYhJZLXdBDO5DidAVzQ82.jpg" },
+    { "id": 3, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qNLMPY3KLrYgTX2QZ5iEwwOqyRz.jpg" },
+    { "id": 4, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg" },
+    { "id": 5, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg" }
+
+  ],
+  "spotlight-cinema":[
+    { "id": 1, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg" },
+    { "id": 2, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg" },
+    { "id": 3, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/5XJGvr8g9jkmN6KUIOQOj2iE6K4.jpg" },
+    { "id": 4, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/peN9aqevr0edVoctVKGZDWFdTRl.jpg" },
+    { "id": 5, "url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg" }
+
+  ]
+}
