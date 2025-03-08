@@ -3,10 +3,11 @@ import { FaApple, FaGooglePlay, FaWindows, FaFacebook, FaTwitter, FaLinkedin, Fa
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0D1117] text-white py-10 px-6 flex">
+    <footer className="bg-[#0D1117] text-white py-10 px-6">
       <div className="max-w-7xl mx-auto">
+
         {/* App Download Section */}
-        <div className="flex justify-center gap-4 mb-6">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
           <button className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-lg">
             <FaApple className="text-xl" /> App Store
           </button>
@@ -18,10 +19,10 @@ const Footer = () => {
           </button>
         </div>
 
-        {/* Main Footer Sections in Row Layout */}
-        <div className="flex flex-wrap justify-between text-gray-400">
+        {/* Footer Sections in Grid Layout */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-gray-400 text-center sm:text-left">
           {/* Watch Section */}
-          <div className="flex-1 min-w-[200px]">
+          <div>
             <h3 className="text-white font-semibold mb-3">Watch</h3>
             <ul>
               <li><a href="#">Spotlight</a></li>
@@ -32,10 +33,10 @@ const Footer = () => {
           </div>
 
           {/* My Account Section */}
-          <div className="flex-1 min-w-[200px]">
+          <div>
             <h3 className="text-white font-semibold mb-3">My Account</h3>
             <ul>
-              <li><a href="#">My store</a></li>
+              <li><a href="#">My Store</a></li>
               <li><a href="#">Account</a></li>
               <li><a href="#">Settings</a></li>
               <li><a href="#">Manage Devices</a></li>
@@ -43,7 +44,7 @@ const Footer = () => {
           </div>
 
           {/* Features Section */}
-          <div className="flex-1 min-w-[200px]">
+          <div>
             <h3 className="text-white font-semibold mb-3">Features</h3>
             <ul>
               <li><a href="#">Lists</a></li>
@@ -54,7 +55,7 @@ const Footer = () => {
           </div>
 
           {/* Help Section */}
-          <div className="flex-1 min-w-[200px]">
+          <div>
             <h3 className="text-white font-semibold mb-3">Help</h3>
             <ul>
               <li><a href="#">About Us</a></li>
@@ -75,6 +76,7 @@ const Footer = () => {
           <FaYoutube className="text-2xl hover:text-red-500 cursor-pointer" />
           <FaRss className="text-2xl hover:text-orange-500 cursor-pointer" />
         </div>
+
       </div>
     </footer>
   );

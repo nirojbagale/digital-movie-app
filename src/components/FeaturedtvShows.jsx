@@ -17,7 +17,7 @@ const FeaturedtvShows = () => {
         {tvShows.map((show) => (
           <div key={show.id} className="relative group overflow-hidden rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
             {/* Movie Image */}
-            <img src={show.thumbnail} alt={show.title} className="w-full h-64 object-contain rounded-lg" />
+            <img src={show.thumbnail} alt={show.title} className="w-full h-84 object-contain rounded-lg" />
 
             {/* Overlay Gradient */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
