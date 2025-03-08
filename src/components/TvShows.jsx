@@ -6,7 +6,7 @@ const Tvshows = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:5000/tvShows")
+    fetch("https://my-json-server.typicode.com/nirojbagale/digital-movie-app/tvShows")
       .then((res) => res.json())
       .then((data) => setTvShows(data)); 
 

@@ -4,7 +4,7 @@ const SpotlightActors = () => {
   const [spotlightActors, setSpotlightActors] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/spotlight-actor")
+    fetch("https://my-json-server.typicode.com/nirojbagale/digital-movie-app/spotlight-actor")
       .then((res) => res.json())
       .then((data) => setSpotlightActors(data)); 
 

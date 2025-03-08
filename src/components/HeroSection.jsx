@@ -5,7 +5,7 @@ const HeroSection = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
-    fetch('http://localhost:5000/hero')  // ✅ Correct API endpoint
+    fetch('https://my-json-server.typicode.com/nirojbagale/digital-movie-app/hero')  // ✅ Correct API endpoint
       .then(response => response.json())
       .then(data => {
         if (Array.isArray(data)) {

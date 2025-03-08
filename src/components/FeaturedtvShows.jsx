@@ -4,7 +4,7 @@ const FeaturedtvShows = () => {
   const [tvShows, settvShows] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/tvShows")
+    fetch("https://my-json-server.typicode.com/nirojbagale/digital-movie-app/tvShows")
       .then((res) => res.json())
       .then((data) => settvShows(data.slice(0, 4))); // Get only 4 tvshows
 

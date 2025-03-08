@@ -6,7 +6,7 @@ const Movies = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:5000/movies")
+    fetch("https://my-json-server.typicode.com/nirojbagale/digital-movie-app/movies")
       .then((res) => res.json())
       .then((data) => setMovies(data)); 
   }, []);
