@@ -31,7 +31,7 @@ const FeaturedtvShows = () => {
           >
             {/* Movie Image */}
             <img
-              src={show.thumbnail}
+              src={show.poster}
               alt={show.title}
               className="w-full h-84 object-contain rounded-lg"
             />

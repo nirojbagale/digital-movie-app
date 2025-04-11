@@ -30,7 +30,7 @@ const Tvshows = () => {
           >
             {/* Movie Image */}
             <img
-              src={show.thumbnail}
+              src={show.poster}
               alt={show.title}
               className="w-full h-84 object-contain rounded-lg"
             />
@@ -38,7 +38,7 @@ const Tvshows = () => {
             {/* Overlay Gradient */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
 
-            {/* Movie Title */}
+            {/* Tvshow Title */}
             <div className="absolute bottom-4 left-4 text-white">
               <h3 className="text-lg font-semibold">{show.title}</h3>
             </div>

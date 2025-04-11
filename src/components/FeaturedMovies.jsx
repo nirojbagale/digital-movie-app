@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import api from "../API";
+import api from "../API";
 
 
 const FeaturedMovies = () => {
@@ -32,7 +32,7 @@ const FeaturedMovies = () => {
           >
             {/* Movie Image */}
             <img
-              src={movie.thumbnail}
+              src={movie.poster}
               alt={movie.title}
               className="w-full h-84 object-contain rounded-lg"
             />
