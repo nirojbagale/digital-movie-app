@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import api from "../API";
+// import api from "../API";
+
 
 const FeaturedMovies = () => {
   const [movies, setMovies] = useState([]);

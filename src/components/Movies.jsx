@@ -31,7 +31,7 @@ const Movies = () => {
           >
             {/* Movie Image */}
             <img
-              src={movie.thumbnail}
+              src={movie.poster}
               alt={movie.title}
               className="w-full h-84 object-contain rounded-lg"
             />
